@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+
+    <script defer src="script.js"></script>
+
+    <title>MeaList</title>
+  </head>
+
+  <body>
+    <container class="app-container">
+      <header class="app-nav">
+        <div class="app-menu">MeaList</div>
+        <p class="nav-text">
+          <strong>Great you're here!</strong> Let's create your weekly list and
+          add some ingredients!
+        </p>
+      </header>
+
+      <div class="app-bodylist">
+        <sidebar class="app-list-lists">
+          <div class="new-list-btn" id="new-id">
+            <input
+              type="text"
+              class="new-list"
+              maxlength="20"
+              placeholder="New List"
+            />
+          </div>
+          <ul class="all-lists-container"></ul>
+        </sidebar>
+
+        <section class="meal-img"></section>
+      </div>
+      <footer>Copyright&copy; 2022 by Joao Matias. All rights reserved.</footer>
+    </container>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
